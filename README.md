@@ -4,6 +4,9 @@
 
 An RViz2 panel plugin that subscribes to `/controller_server/critics_stats` and gives you a live, at-a-glance view of every MPPI critic's contribution — cost bars, percentage share, trigger status, dominant critic, and a scrolling cost-history chart — all without leaving RViz2.
 
+<img width="482" height="560" alt="Screenshot from 2026-05-24 21-56-33" src="https://github.com/user-attachments/assets/d4009b87-8a90-4aa7-b933-12d5009d9b5c" />
+
+
 ---
 
 ## Features
@@ -25,7 +28,7 @@ An RViz2 panel plugin that subscribes to `/controller_server/critics_stats` and 
 | Requirement | Version |
 |-------------|---------|
 | ROS 2 | **Humble Hawksbill** (tested) |
-| Nav2 | nav2_humble_plus repo pkg with `nav2_msgs/msg/CriticsStats` |
+| Nav2 | nav2_humble_plus repo  |
 
 ### System packages
 
