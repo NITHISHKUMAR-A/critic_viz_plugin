@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/blink/goat_ws/install/swerve_steering_controller/include/**",
+        "/home/blink/goat_ws/install/kiss_matcher_ros/include/**",
+        "/home/blink/goat_ws/install/dual_laser_merger/include/**",
+        "/home/blink/goat_ws/install/ackermann_steering/include/**",
+        "/home/blink/glim_ws/install/livox_ros_driver2/include/**",
+        "/home/blink/ros_ws/install/turtlebot3_gazebo/include/**",
+        "/home/blink/ros_ws/install/slam_toolbox/include/**",
+        "/home/blink/ros_ws/install/occupancy_slam_ros2/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/blink/ros_ws/src/critics_viz_rviz/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

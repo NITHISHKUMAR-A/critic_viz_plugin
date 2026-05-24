@@ -1,0 +1,12 @@
+<library path="critics_viz_panel">
+  <class
+    name="critics_viz_rviz/CriticsPanel"
+    type="critics_viz_rviz::CriticsPanel"
+    base_class_type="rviz_common::Panel">
+    <description>
+      Live panel for Nav2 MPPI /controller_server/critics_stats.
+      Shows per-critic cost bars, % share, cost history chart,
+      trigger status, and dominant critic.
+    </description>
+  </class>
+</library>
