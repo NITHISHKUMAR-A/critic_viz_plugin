@@ -38,11 +38,11 @@ MetricCard::MetricCard(const QString & label, QWidget * parent)
   l->setContentsMargins(10,8,10,8);
   l->setSpacing(2);
   label_ = new QLabel(label, this);
-  label_->setStyleSheet("font-size:11px;color:#64748b;");
+  label_->setStyleSheet("font-size:11px;color:#1e293b;");
   value_ = new QLabel("—", this);
-  value_->setStyleSheet("font-size:18px;font-weight:500;color:#e2e8f0;");
+  value_->setStyleSheet("font-size:18px;font-weight:700;color:#000000;");
   sub_ = new QLabel("", this);
-  sub_->setStyleSheet("font-size:10px;color:#475569;");
+  sub_->setStyleSheet("font-size:10px;color:#334155;");
   l->addWidget(label_);
   l->addWidget(value_);
   l->addWidget(sub_);
