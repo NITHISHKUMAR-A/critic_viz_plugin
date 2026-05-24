@@ -28,7 +28,7 @@ An RViz2 panel plugin that subscribes to `/controller_server/critics_stats` and 
 | Requirement | Version |
 |-------------|---------|
 | ROS 2 | **Humble Hawksbill** (tested) |
-| Nav2 | nav2_humble_plus repo  |
+| Nav2 | navigation2 repo  |
 
 ### System packages
 
@@ -49,7 +49,7 @@ You must clone the navigation2 repo and build it first . follow below step
 ```bash
 mkdir -p ~/nav2_ws/src
 cd ~/nav2_ws/src
-git clone https://github.com/NITHISHKUMAR-A/nav2_humble_plus.git
+git clone https://github.com/NITHISHKUMAR-A/navigation2.git
 cd ~/nav2_ws
 colcon build --symlink-install
 source install/local_setup.bash 
