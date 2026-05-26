@@ -4,7 +4,7 @@
 
 An RViz2 panel plugin that subscribes to `/controller_server/critics_stats` and gives you a live, at-a-glance view of every MPPI critic's contribution — cost bars, percentage share, trigger status, dominant critic, and a scrolling cost-history chart — all without leaving RViz2.
 
-[Screencast from 05-26-2026 04:58:51 PM.webm](https://github.com/user-attachments/assets/5ebf6855-138f-4a07-baeb-0292530c6e88)
+[demo.webm](https://github.com/user-attachments/assets/c2c4a748-97ba-4c8a-8cb8-6472033dff7f)
 
 ---
 
