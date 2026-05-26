@@ -60,6 +60,7 @@ source ~/.bashrc
 ```
 
 
+
 > **Note:** The `CriticsStats` message must define at least `critics_names` (string[]), `costs_sum` (float64[]), and `critics_triggered` (bool[]).
 
 ---
@@ -83,7 +84,11 @@ source install/setup.bash
 ---
 
 ## Usage
-
+NOTE : Must add the below param in your nav2_params.yaml
+``` bash
+FollowPath:
+  publish_critics_stats: true
+```
 ### 1 — Launch your Nav2 stack
 
 Make sure the MPPI controller is running and publishing on `/controller_server/critics_stats`.
@@ -140,6 +145,8 @@ critics_viz_rviz/
 | `nav2_msgs/msg/critics_stats.hpp: No such file or directory` | `nav2_ws` not sourced before building | `source ~/nav2_ws/install/setup.bash` then rebuild |
 
 ---
+
+
 
 ## License
 
